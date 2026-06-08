@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LASUSTECH AI Chatbot</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background: #e9eef3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .chat-container{
+            width: 420px;
+            height: 650px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .chat-header{
+            background: #0485e1;
+            color: white;
+            padding: 18px;
+            text-align: center;
+        }
+
+        .chat-header h2{
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .chat-header p{
+            font-size: 13px;
+            opacity: 0.9;
+        }
+
+        #chatbox{
+            flex: 1;
+            padding: 15px;
+            overflow-y: auto;
+            background: #f7f7f7;
+        }
+
+        .message{
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .user-message{
+            align-items: flex-end;
+        }
+
+        .bot-message{
+            align-items: flex-start;
+        }
+
+        .bubble{
+            max-width: 75%;
+            padding: 12px;
+            border-radius: 12px;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+
+        .user-bubble{
+            background: #d1e7ff;
+        }
+
+        .bot-bubble{
+            background: #dbe9ff;
+        }
+
+        .time{
+            font-size: 11px;
+            color: gray;
+            margin-top: 4px;
+        }
+
+        .input-area{
+            display: flex;
+            border-top: 1px solid #ccc;
+            background: white;
+        }
+
+        #userInput{
+            flex: 1;
+            border: none;
+            padding: 15px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        button{
+            width: 90px;
+            border: none;
+            background: #0485e1;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: #216fe4;
+        }
+
+        @media(max-width: 500px){
+
+            .chat-container{
+                width: 95%;
+                height: 95vh;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <div class="chat-header">
+            <h2>🤖 LASUSTECH AI Chatbot</h2>
+            <p>Academic Support Assistant</p>
+        </div>
+
+        <div id="chatbox">
+
+            <div class="message bot-message">
+                <div class="bubble bot-bubble">
+                    Hello 👋 Welcome to LASUSTECH Academic Support Chatbot.
+                </div>
+                <div class="time" id="startTime"></div>
+            </div>
+
+        </div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="userInput"
+                placeholder="Ask your question..."
+                onkeypress="handleKeyPress(event)"
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+<script>
+
+function getTime(){
+
+    let now = new Date();
+
+    return now.toLocaleTimeString([], {
+        hour: '2-digit',
+        minute: '2-digit'
+    });
+
+}
+
+document.getElementById("startTime").innerText = getTime();
+
+function sendMessage(){
+
+    let userInput = document.getElementById("userInput").value;
+
+    if(userInput.trim() === ""){
+        return;
+    }
+
+    let chatBox = document.getElementById("chatbox");
+
+    // USER MESSAGE
+    chatBox.innerHTML += `
+        <div class="message user-message">
+            <div class="bubble user-bubble">
+                👤 ${userInput}
+            </div>
+            <div class="time">${getTime()}</div>
+        </div>
+    `;
+
+    chatBox.scrollTop = chatBox.scrollHeight;
+
+    document.getElementById("userInput").value = "";
+
+    // FETCH RESPONSE
+    fetch("/get?msg=" + encodeURIComponent(userInput))
+
+    .then(response => response.text())
+
+    .then(data => {
+
+        // TYPING
+        chatBox.innerHTML += `
+            <div class="message bot-message" id="typingBox">
+                <div class="bubble bot-bubble">
+                    🤖 Typing...
+                </div>
+            </div>
+        `;
+
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+        setTimeout(() => {
+
+            document.getElementById("typingBox").remove();
+
+            // BOT RESPONSE
+            chatBox.innerHTML += `
+                <div class="message bot-message">
+                    <div class="bubble bot-bubble">
+                        🤖 ${data}
+                    </div>
+                    <div class="time">${getTime()}</div>
+                </div>
+            `;
+
+            chatBox.scrollTop = chatBox.scrollHeight;
+
+        }, 1000);
+
+    });
+
+}
+
+function handleKeyPress(event){
+
+    if(event.key === "Enter"){
+        sendMessage();
+    }
+
+}
+
+</script>
+
+</body>
+</html>

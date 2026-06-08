@@ -1,0 +1,508 @@
+{
+  "questions": [
+    {
+      "question": "hi",
+      "answer": "Hello! I am the LASUSTECH Academic Support Chatbot. How can I help you today?"
+    },
+    {
+      "question": "hello",
+      "answer": "Hello! I am the LASUSTECH Academic Support Chatbot. How can I help you today?"
+    },
+    {
+      "question": "hey",
+      "answer": "Hey! I am here to help you with your academic questions at LASUSTECH."
+    },
+    {
+      "question": "good morning",
+      "answer": "Good morning! How can I assist you today?"
+    },
+    {
+      "question": "good afternoon",
+      "answer": "Good afternoon! What academic question can I help you with?"
+    },
+    {
+      "question": "good evening",
+      "answer": "Good evening! I am here to help. What would you like to know?"
+    },
+    {
+      "question": "how are you",
+      "answer": "I am doing great and ready to assist you! What is your question?"
+    },
+    {
+      "question": "what can you do",
+      "answer": "I can help you with questions about course registration, GPA and CGPA, results, school fees, SIWES, examination rules, and general academic guidance at LASUSTECH."
+    },
+    {
+      "question": "what can you help me with",
+      "answer": "I can assist with course registration, GPA and CGPA, results checking, school fees, SIWES, examination rules, and general academic matters at LASUSTECH."
+    },
+    {
+      "question": "who are you",
+      "answer": "I am the LASUSTECH Academic Support Chatbot, designed to help students get quick answers to their academic questions at any time."
+    },
+    {
+      "question": "what are you",
+      "answer": "I am an AI-powered academic support chatbot built specifically for students of Lagos State University of Science and Technology."
+    },
+    {
+      "question": "How do I register my courses?",
+      "answer": "Course registration at LASUSTECH is done through the student portal. Log in with your matric number, navigate to course registration, select your courses, and submit before the deadline."
+    },
+    {
+      "question": "How can I register courses?",
+      "answer": "Log in to the LASUSTECH student portal with your matric number and select your courses during the registration window. Make sure your fees are cleared before registering."
+    },
+    {
+      "question": "Where do I register my courses?",
+      "answer": "Course registration is done on the LASUSTECH student portal. Visit the portal, log in, and follow the course registration steps."
+    },
+    {
+      "question": "What is the process for course registration?",
+      "answer": "To register your courses, log in to the student portal, check that your fees are paid, navigate to the course registration section, choose your courses, and submit your form before the deadline."
+    },
+    {
+      "question": "When does course registration open?",
+      "answer": "Course registration dates are announced at the beginning of each semester on the LASUSTECH portal and notice boards. Check the academic calendar for exact dates."
+    },
+    {
+      "question": "When does registration close?",
+      "answer": "Registration deadlines are announced on the academic calendar at the start of each semester. Log in to the portal or check your departmental notice board for updates."
+    },
+    {
+      "question": "Can I register courses late?",
+      "answer": "Late registration may be allowed within a grace period, usually with a penalty fee. Contact your department or the academic registry for the current late registration policy."
+    },
+    {
+      "question": "What do I need to register my courses?",
+      "answer": "You need your matric number and portal login details. You also need to ensure your school fees are paid, as unpaid fees may block your access to course registration."
+    },
+    {
+      "question": "How many units can I register?",
+      "answer": "The maximum number of units you can register per semester is typically 24, and the minimum is set by your department. Check with your department for your programme-specific limits."
+    },
+    {
+      "question": "Can I add or drop a course after registration?",
+      "answer": "Course addition and deletion is allowed within the first few weeks of the semester. Check with your department for the specific window and procedure."
+    },
+    {
+      "question": "How do I print my course form?",
+      "answer": "After completing course registration on the student portal, you can print your course registration form directly from the portal. Navigate to your registration history and select print."
+    },
+    {
+      "question": "My course registration is not working",
+      "answer": "If you are having trouble with course registration on the portal, first check that your fees are cleared. If the problem continues, visit the ICT unit or your departmental office for assistance."
+    },
+    {
+      "question": "I cannot register my courses on the portal",
+      "answer": "Check that your school fees are fully paid, as unpaid fees can block registration. If fees are cleared and you still cannot register, contact the ICT unit or your department."
+    },
+    {
+      "question": "What happens if I miss the course registration deadline?",
+      "answer": "Missing the registration deadline may result in late registration fees or restriction from sitting for exams in unregistered courses. Contact your department immediately if you missed the deadline."
+    },
+    {
+      "question": "Can I register for more than 24 units?",
+      "answer": "Registering above the maximum unit limit requires special approval from your department. It is generally not allowed unless under exceptional academic circumstances."
+    },
+    {
+      "question": "What is GPA?",
+      "answer": "GPA stands for Grade Point Average. It measures your academic performance for a single semester by dividing your total weighted grade points by the total credit units you registered that semester."
+    },
+    {
+      "question": "What is CGPA?",
+      "answer": "CGPA stands for Cumulative Grade Point Average. It is the overall measure of your academic performance across all the semesters you have completed so far."
+    },
+    {
+      "question": "How is GPA calculated?",
+      "answer": "GPA is calculated by multiplying each course grade point by its credit unit, adding all the results together, and dividing by the total number of credit units registered that semester."
+    },
+    {
+      "question": "How is CGPA calculated?",
+      "answer": "CGPA is calculated by dividing your total weighted grade points earned across all semesters by the total number of credit units you have attempted across all semesters."
+    },
+    {
+      "question": "What is the difference between GPA and CGPA?",
+      "answer": "GPA measures your performance in a single semester only. CGPA is the cumulative average across all semesters you have studied. Your CGPA builds up as you progress through your programme."
+    },
+    {
+      "question": "How do I improve my CGPA?",
+      "answer": "To improve your CGPA, focus on scoring higher grades in your current and upcoming courses. You can also repeat failed or poor-performing courses to replace low scores. Consistency over multiple semesters is key."
+    },
+    {
+      "question": "What CGPA do I need to graduate with first class?",
+      "answer": "A CGPA of 4.50 and above is required for First Class Honours at LASUSTECH. A CGPA of 3.50 to 4.49 qualifies for Second Class Upper, and 2.40 to 3.49 qualifies for Second Class Lower."
+    },
+    {
+      "question": "What is the minimum CGPA to graduate?",
+      "answer": "The minimum CGPA required for graduation at LASUSTECH is 1.0. Students with a CGPA below this level may be placed on probation or advised to withdraw."
+    },
+    {
+      "question": "What CGPA is second class upper?",
+      "answer": "A CGPA between 3.50 and 4.49 qualifies for Second Class Upper Honours at LASUSTECH."
+    },
+    {
+      "question": "What CGPA is second class lower?",
+      "answer": "A CGPA between 2.40 and 3.49 qualifies for Second Class Lower Honours at LASUSTECH."
+    },
+    {
+      "question": "What CGPA is third class?",
+      "answer": "A CGPA between 1.50 and 2.39 qualifies for Third Class Honours at LASUSTECH."
+    },
+    {
+      "question": "Where can I see my GPA?",
+      "answer": "Your GPA and CGPA can be viewed on the LASUSTECH student portal after your semester results have been uploaded. Log in with your matric number and navigate to your results section."
+    },
+    {
+      "question": "Can I calculate my GPA myself?",
+      "answer": "Yes. Multiply each course grade point by its credit unit, sum all the products, then divide by the total credit units you registered. The grade point for each score is usually shown on your result slip."
+    },
+    {
+      "question": "My GPA dropped this semester, what can I do?",
+      "answer": "A drop in GPA can be recovered in future semesters by focusing on your studies and performing better. You can also speak with your academic adviser about strategies and whether repeating any course is an option."
+    },
+    {
+      "question": "What is grade point?",
+      "answer": "A grade point is the numerical value assigned to a letter grade. For example, an A grade typically carries 5 points, B carries 4, C carries 3, D carries 2, and F carries 0 at LASUSTECH."
+    },
+    {
+      "question": "How do I check my result?",
+      "answer": "Log in to the LASUSTECH student portal with your matric number and navigate to the Academic Results section. Your semester results will be displayed there once they are uploaded by the academic registry."
+    },
+    {
+      "question": "Where can I see my result?",
+      "answer": "Your results are available on the LASUSTECH student portal. Log in and go to the Academic Results section to view your scores for each semester."
+    },
+    {
+      "question": "How can I view my semester result?",
+      "answer": "Visit the LASUSTECH student portal, log in with your matric number, and click on Academic Results to view your semester result."
+    },
+    {
+      "question": "My result is not showing on the portal",
+      "answer": "If your result is not displaying on the portal, it may not have been uploaded yet. Wait a few days and check again. If the issue persists, visit the Examinations and Records Office with your details."
+    },
+    {
+      "question": "When will my result be released?",
+      "answer": "Results are typically released a few weeks after examinations are completed. The exact date is communicated by the academic registry. Check the portal regularly for updates."
+    },
+    {
+      "question": "My result is incomplete",
+      "answer": "If a course result is missing from your portal, visit the Examinations and Records Office or your departmental exam officer with your course registration form as evidence of enrolment."
+    },
+    {
+      "question": "I have a missing score in my result",
+      "answer": "Visit the Examinations and Records Office or your department's examination officer if a score is missing from your result. Bring your course form and any relevant evidence."
+    },
+    {
+      "question": "Can I challenge my result?",
+      "answer": "Yes. If you believe your result is incorrect, you can apply for a result review or script review through your department within the stipulated time period after results are released."
+    },
+    {
+      "question": "How do I request a result verification letter?",
+      "answer": "Result verification letters can be requested from the Examinations and Records Office. You may need to pay a processing fee and provide your matric number and other details."
+    },
+    {
+      "question": "Can I get a transcript?",
+      "answer": "Yes. Transcripts are issued by the Examinations and Records Office. Visit the office with your details and pay the required transcript fee. Processing time varies."
+    },
+    {
+      "question": "How long does it take to get a transcript?",
+      "answer": "Transcript processing time at LASUSTECH is not specified. For urgent requests, enquire at the Examinations and Records Office about expedited processing."
+    },
+    {
+      "question": "What does F mean in my result?",
+      "answer": "An F grade means you failed that course. You will need to carry it over and repeat it in a future semester to earn the credit unit."
+    },
+    {
+      "question": "What are the examination rules at LASUSTECH?",
+      "answer": "Students must arrive at least 30 minutes before the exam starts, come with their student ID card and Docket, and must not bring phones or electronic devices into the hall."
+    },
+    {
+      "question": "What are the rules for exams?",
+      "answer": "Arrive early with your ID and Docket. No phones, calculators (unless permitted), or written materials are allowed in the exam hall. Cheating attracts serious penalties including expulsion."
+    },
+    {
+      "question": "Can I use my phone during exams?",
+      "answer": "No. Phones and all electronic devices are strictly prohibited in the examination hall. Possession of a phone during an exam may be treated as an examination malpractice offence."
+    },
+    {
+      "question": "What happens if I am caught cheating in exams?",
+      "answer": "Examination malpractice is a serious offence at LASUSTECH. Consequences range from scoring zero in the course to suspension or outright expulsion, depending on the severity."
+    },
+    {
+      "question": "What happens if I miss an exam?",
+      "answer": "Missing an examination without an approved excuse will result in a score of zero for that course. If you had a genuine emergency, notify your department immediately and apply for a medical or compassionate waiver."
+    },
+    {
+      "question": "Can I write an exam if I am late?",
+      "answer": "Students who arrive more than 30 minutes late may be denied entry into the examination hall. Always aim to arrive at least 15 minutes before the exam starts."
+    },
+    {
+      "question": "What do I need to bring to an exam?",
+      "answer": "Bring your student ID card, your exam card or docket, and any permitted materials stated by your department. Do not bring phones, bags, or any unauthorised written materials."
+    },
+    {
+      "question": "What is examination malpractice?",
+      "answer": "Examination malpractice includes cheating, bringing unauthorised materials, impersonating another student, or any act of dishonesty during an examination. It carries serious academic consequences."
+    },
+    {
+      "question": "What is an exam card?",
+      "answer": "An exam card is a card issued to eligible students confirming they have met the requirements to sit for an examination, including paying fees and registering their courses. It's referred to as a docket at LASUSTECH."
+    },
+    {
+      "question": "How do I get my exam card?",
+      "answer": "Your exam card or docket is usually generated from the student portal after your fees are paid and your courses are registered. Log in to the portal and print your course form and school fee receipt, these will serve as your exam card or docket."
+    },
+    {
+      "question": "Can I write exam without an exam card?",
+      "answer": "Generally, students are required to present their exam card before entering the examination hall. Without it, you may be denied entry. Contact your department urgently if you cannot generate your card."
+    },
+    {
+      "question": "When is the examination timetable released?",
+      "answer": "The examination timetable is usually released a few weeks before the exam period begins. Check the LASUSTECH portal and departmental notice boards for updates."
+    },
+    {
+      "question": "How do I pay school fees?",
+      "answer": "School fees at LASUSTECH are paid through the student payment portal. Log in, generate your payment invoice, and pay through the designated bank or online payment option."
+    },
+    {
+      "question": "Where can I pay my fees?",
+      "answer": "Fees are paid through the official LASUSTECH payment portal. You can also visit designated bank branches with your payment invoice generated from the portal."
+    },
+    {
+      "question": "How much is the school fee?",
+      "answer": "School fees vary depending on your level, department, and programme. Log in to the student portal to generate your invoice and see the exact amount payable for your profile."
+    },
+    {
+      "question": "When is the deadline for paying school fees?",
+      "answer": "Fee payment deadlines are announced at the start of each semester on the portal and academic calendar. Pay early to avoid being blocked from course registration."
+    },
+    {
+      "question": "What happens if I do not pay my fees?",
+      "answer": "Unpaid fees can prevent you from registering your courses, sitting for exams, or collecting results. Always ensure fees are paid before the deadline."
+    },
+    {
+      "question": "Can I pay school fees in instalments?",
+      "answer": "Instalment payment arrangements are handled by the Bursary Department. Visit the bursary with your student details to enquire about the instalment policy for your programme."
+    },
+    {
+      "question": "How do I get a payment receipt?",
+      "answer": "After paying your fees, your receipt is available on the student portal. Log in and navigate to the payment history section to download or print your receipt."
+    },
+    {
+      "question": "I paid my fees but the portal is still locked",
+      "answer": "After payment, allow some time for the system to update. If the portal remains locked after 24 hours, visit the Bursary or ICT unit with your payment receipt for manual verification."
+    },
+    {
+      "question": "What fees do I pay as a student?",
+      "answer": "You only need to pay your school fee and any applicable miscellaneous fees should only be paid on the student portal. Check the portal for a full breakdown of your invoice."
+    },
+    {
+      "question": "Is there a fee waiver for indigent students?",
+      "answer": "For information on scholarships or fee waivers, contact the Student Affairs Division or your department. Some state and federal schemes may also be applicable."
+    },
+    {
+      "question": "How do I pay my acceptance fee?",
+      "answer": "Newly admitted students pay their acceptance fee through the LASUSTECH admissions portal using the payment details provided in their admission letter."
+    },
+    {
+      "question": "What is SIWES?",
+      "answer": "SIWES stands for Students Industrial Work Experience Scheme. It is a federal government programme that allows students to gain practical work experience related to their field of study."
+    },
+    {
+      "question": "How do I apply for SIWES?",
+      "answer": "SIWES application is coordinated by your department. Visit your departmental SIWES or Industrial Training coordinator to begin the application process and get your placement letter."
+    },
+    {
+      "question": "When do I go for industrial training?",
+      "answer": "SIWES is typically done in your penultimate year (the year before your final year). The exact period is determined by your department and programme requirements."
+    },
+    {
+      "question": "How long is SIWES?",
+      "answer": "The duration of SIWES varies by programme. It is typically six months for most degree programmes and three months for some other programmes. Confirm the exact duration with your department."
+    },
+    {
+      "question": "How do I get my SIWES letter?",
+      "answer": "Your SIWES placement letter is obtained from your departmental Industrial Training coordinator. Visit your department to initiate the process and collect the letter."
+    },
+    {
+      "question": "Can I choose where to do my SIWES?",
+      "answer": "In many cases, students can suggest a preferred organisation, but placement must be approved by your department and SIWES coordinator. The placement must be relevant to your field of study."
+    },
+    {
+      "question": "What do I do during SIWES?",
+      "answer": "During SIWES, you work in an approved organisation related to your discipline, keep a log book of your daily activities, and get supervision visits from your departmental supervisor."
+    },
+    {
+      "question": "What is an IT log book?",
+      "answer": "An IT log book is a record of your daily activities during SIWES. You are required to document what you do each day and have it signed by your industry supervisor regularly."
+    },
+    {
+      "question": "Who supervises me during SIWES?",
+      "answer": "You have two supervisors during SIWES: an industry-based supervisor from your placement organisation and an academic supervisor from your department who visits you periodically."
+    },
+    {
+      "question": "What happens after SIWES?",
+      "answer": "After SIWES, you write a technical report of your experience, submit your log book, and present your experience during a departmental SIWES presentation or defence."
+    },
+    {
+      "question": "Is SIWES compulsory?",
+      "answer": "Yes. SIWES is a compulsory part of the curriculum for most undergraduate programmes at LASUSTECH. Failure to complete it may prevent you from graduating."
+    },
+    {
+      "question": "What if I cannot find a SIWES placement?",
+      "answer": "If you are having difficulty finding a placement, speak to your departmental SIWES coordinator. They may be able to suggest organisations or help facilitate a placement."
+    },
+    {
+      "question": "Do I get paid during SIWES?",
+      "answer": "SIWES students receive a stipend from the Industrial Training Fund (ITF) through the federal government scheme. The amount is fixed by the ITF and is usually paid after SIWES is completed."
+    },
+    {
+      "question": "What is carryover?",
+      "answer": "A carryover refers to a course you failed or did not pass with the required grade. You must re-register and repeat the course in a future semester to earn the credit unit."
+    },
+    {
+      "question": "How do I clear carryover courses?",
+      "answer": "To clear a carryover, re-register the course during the next available semester it is offered, attend classes, and pass the examination. The new score replaces the old one."
+    },
+    {
+      "question": "What is the passing grade?",
+      "answer": "The minimum passing grade at LASUSTECH is 40 percent, which earns a E grade. Scoring below 40 percent results in an F grade and the course must be repeated."
+    },
+    {
+      "question": "What is academic probation?",
+      "answer": "Academic probation is a warning status given to students whose CGPA falls below the required minimum. Students on probation are expected to improve their grades within the specified period or face withdrawal."
+    },
+    {
+      "question": "What is withdrawal?",
+      "answer": "Academic withdrawal means a student is required to leave the university due to consistently poor academic performance. It is a formal process handled by the academic registry and department."
+    },
+    {
+      "question": "How do I withdraw from school voluntarily?",
+      "answer": "Voluntary withdrawal is processed through your department and the academic registry. Submit a formal request with your reasons and follow the steps provided by the registry."
+    },
+    {
+      "question": "What is matriculation?",
+      "answer": "Matriculation is the formal ceremony through which new students are officially admitted as members of LASUSTECH. Attendance is usually compulsory for newly admitted students."
+    },
+    {
+      "question": "What is convocation?",
+      "answer": "Convocation is the graduation ceremony held for students who have successfully completed their programme requirements. Graduating students collect their certificates at convocation."
+    },
+    {
+      "question": "How do I defer my admission?",
+      "answer": "Admission deferment is handled by the Admissions Office. Submit a written application with your reasons for deferral. Approval is not automatic and is based on the university's policy."
+    },
+    {
+      "question": "What is a semester?",
+      "answer": "A semester is one academic term at LASUSTECH. Each academic year is divided into two semesters, and courses are registered and examined per semester."
+    },
+    {
+      "question": "How do I get my matric number?",
+      "answer": "Matric numbers are issued after paying school fees. If you have not received yours, contact the Admissions Office or your department."
+    },
+    {
+      "question": "How do I contact my department?",
+      "answer": "You can contact your department by visiting the departmental office during working hours (usually 8am to 4pm on weekdays), or through your course adviser or HOD."
+    },
+    {
+      "question": "Where is the academic calendar?",
+      "answer": "The LASUSTECH academic calendar is usually released at the beginning of each academic year. It contains important dates including registration, exams, and holidays."
+    },
+    {
+      "question": "What is an academic adviser?",
+      "answer": "An academic adviser is a lecturer assigned to guide you through your academic programme, help you with course selection, and advise you on managing your CGPA and academic progress."
+    },
+    {
+      "question": "How do I change my department?",
+      "answer": "Changing departments or courses is subject to the availability of space and meeting the entry requirements for the new department. Applications are made through the Admissions Office."
+    },
+    {
+      "question": "What is a prerequisite course?",
+      "answer": "A prerequisite course is one you must have passed before you can register for a higher-level course in the same area. Check your departmental course guide for prerequisite requirements."
+    },
+    {
+      "question": "How do I reset my portal password?",
+      "answer": "Use the password recovery or forgot password option on the LASUSTECH student portal login page. If that does not work, visit the ICT unit with your student ID for a manual reset."
+    },
+    {
+      "question": "I forgot my portal password",
+      "answer": "Click the forgot password link on the student portal login page to reset your password. If you are unable to recover access, visit the ICT unit with your matric number and ID."
+    },
+    {
+      "question": "I cannot log in to the portal",
+      "answer": "If you cannot log in, try resetting your password using the portal's password recovery option. Check that you are using your correct matric number. If the issue persists, contact the ICT unit."
+    },
+    {
+      "question": "How do I access the student portal?",
+      "answer": "The LASUSTECH student portal is accessed through the official LASUSTECH website. Log in using your matric number and your portal password."
+    },
+    {
+      "question": "What is my portal username?",
+      "answer": "Your portal username is your matric number. Use it along with your password to log in to the LASUSTECH student portal."
+    },
+    {
+      "question": "How do I get hostel accommodation?",
+      "answer": "Hostel accommodation is currently not available at lasustech. Students are expected to make their own arrangements for accommodation off-campus. For any updates on hostel availability, check the Student Affairs Division announcements."
+    },
+    {
+      "question": "Is hostel accommodation available for all students?",
+      "answer": "Hostel accommodation is currently not available at lasustech. Students are expected to make their own arrangements for accommodation off-campus. For any updates on hostel availability, check the Student Affairs Division announcements. Work is ongoing to provide hostel facilities in the future."
+    },
+    {
+      "question": "How do I report a welfare issue?",
+      "answer": "Welfare complaints and issues can be reported to the Student Affairs Division. You may also speak with your student union representatives or your departmental HOD."
+    },
+    {
+      "question": "How do I check my admission status?",
+      "answer": "Admission status can be checked on the LASUSTECH admissions portal or through the JAMB admission status checking portal using your registration number."
+    },
+    {
+      "question": "I have been admitted, what do I do next?",
+      "answer": "After admission, you need to pay your acceptance fee, complete the clearance process, register your courses, and attend the matriculation ceremony. Visit the Admissions Office for guidance."
+    },
+    {
+      "question": "What documents do I need for clearance?",
+      "answer": "Clearance documents typically include your JAMB result, O'level result, birth certificate or age declaration, admission letter, medical certificate, and passport photographs. Confirm the full list from the Admissions Office."
+    },
+    {
+      "question": "How do I apply for JUPEB?",
+      "answer": "For any questions related to JUPEB at LASUSTECH, please visit: jupeb.lasustech.edu.ng for the latest information on application and admission."
+    },
+    {
+      "question": "When is JUPEB form closing?",
+      "answer": "For current information on the JUPEB application deadline, visit: jupeb.lasustech.edu.ng."
+    },
+    {
+      "question": "What is JUPEB?",
+      "answer": "JUPEB stands for Joint Universities Preliminary Examinations Board. It is a pre-degree programme that allows students to gain direct entry into 200 level. Visit jupeb.lasustech.edu.ng for details."
+    },
+    {
+      "question": "thank you",
+      "answer": "You are welcome! Feel free to ask if you have more questions."
+    },
+    {
+      "question": "thanks",
+      "answer": "Happy to help! Let me know if there is anything else you need."
+    },
+    {
+      "question": "bye",
+      "answer": "Goodbye! Best of luck with your studies at LASUSTECH."
+    },
+    {
+      "question": "goodbye",
+      "answer": "Goodbye! Do not hesitate to return if you have more questions."
+    },
+    {
+      "question": "ok thank you",
+      "answer": "You are welcome! All the best with your academics."
+    },
+    {
+      "question": "what's up",
+      "answer": "Hello! I am the LASUSTECH Academic Support Chatbot. How can I help you today?"
+    },
+    {
+      "question": "that will be all",
+      "answer": "Alright! Feel free to come back anytime you need help. Good luck!"
+    }
+  ]
+}

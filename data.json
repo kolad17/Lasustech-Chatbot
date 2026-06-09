@@ -201,6 +201,10 @@
       "answer": "Result verification letters can be requested from the Examinations and Records Office. You may need to pay a processing fee and provide your matric number and other details."
     },
     {
+  "question": "Can I carry over a course?",
+  "answer": "Yes, a failed course can be carried over and repeated in a future semester. To clear a carryover, you need to re-register the course when it is next offered, attend classes, and pass the examination. The new score will replace the old one in your academic record."
+},
+    {
       "question": "Can I get a transcript?",
       "answer": "Yes. Transcripts are issued by the Examinations and Records Office. Visit the office with your details and pay the required transcript fee. Processing time varies."
     },
@@ -362,7 +366,7 @@
     },
     {
       "question": "How do I clear carryover courses?",
-      "answer": "To clear a carryover, re-register the course during the next available semester it is offered, attend classes, and pass the examination. The new score replaces the old one."
+      "answer": "To clear a carryover, re-register the course during the next available semester it is offered, attend classes, and pass the examination. The new score will be recorded but the original failed attempt will still be visible on your result portal and transcript."
     },
     {
       "question": "What is the passing grade?",
@@ -422,15 +426,15 @@
     },
     {
       "question": "How do I reset my portal password?",
-      "answer": "Use the password recovery or forgot password option on the LASUSTECH student portal login page. If that does not work, visit the ICT unit with your student ID for a manual reset."
+      "answer": "Click the telegram link at the top of the login page to contact the ICT unit. If you are unable to recover access, visit the ICT unit with your matric number and ID."
     },
     {
       "question": "I forgot my portal password",
-      "answer": "Click the forgot password link on the student portal login page to reset your password. If you are unable to recover access, visit the ICT unit with your matric number and ID."
+      "answer": "Click the telegram link at the top of the login page to contact the ICT unit. If you are unable to recover access, visit the ICT unit with your matric number and ID."
     },
     {
       "question": "I cannot log in to the portal",
-      "answer": "If you cannot log in, try resetting your password using the portal's password recovery option. Check that you are using your correct matric number. If the issue persists, contact the ICT unit."
+      "answer": "If you cannot log in. Check that you are using your correct matric number. If the issue persists, contact the ICT unit."
     },
     {
       "question": "How do I access the student portal?",
